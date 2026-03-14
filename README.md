@@ -37,3 +37,19 @@ Total input channels: 8
 
 ```bash
 python train.py
+```
+
+## Inference
+
+```bash
+python inference.py
+```
+
+This Generates
+```bash
+submission.csv
+```
+Validation IoU
+```bash
+0.68
+```
