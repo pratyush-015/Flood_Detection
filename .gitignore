@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+flood_env/
+
+# =========================
+# VSCode / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Machine learning artifacts
+# =========================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# =========================
+# Dataset (do not upload large data)
+# =========================
+data/
+
+# =========================
+# Outputs
+# =========================
+submission.csv
+submission_*.csv
+predictions/
+logs/
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+*.swp
+
+# =========================
+# Python packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Cache folders
+# =========================
+.cache/
+huggingface/
+
+# =========================
+# Raster / geospatial temp
+# =========================
+*.aux.xml
+*.ovr
+*.tfw
+*.tif.aux.xml
